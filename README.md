@@ -65,7 +65,7 @@ This applies the following changes:
 ```
 CONFIG_PACKET=y            # in buildroot/board/litex_vexriscv/linux.config for a working DHCP
 BR2_RISCV_ISA_CUSTOM_RVC=y # in buildroot/configs/litex_vexriscv_defconfig Enable C compression
-riscv,isa = "rv32imac";    # json2dts.py for a correct /proc/cpuinfo
+riscv,isa = "rv32imac";    # in json2dts.py for a correct /proc/cpuinfo
 ```
 
 Build the new root: https://github.com/tomtor/linux-on-litex-vexriscv#generating-the-linux-binaries-optional
