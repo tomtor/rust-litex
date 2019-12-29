@@ -56,7 +56,7 @@ Verify that you can still boot the simulation in your `linux-on-litex-vexriscv` 
 ./sim.py
 ```
 
-## Building a new root with the C Riscv extension ##
+## Building a new root with the C Riscv extension (Optional) ##
 
 Clone `https://github.com/tomtor/linux-on-litex-vexriscv` and checkout branch `rv32imac`
 
