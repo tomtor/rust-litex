@@ -15,10 +15,10 @@ size: litex.bin
 fmt:
 	cargo fmt
 
-$(ELF_REL): src/main.rs
+$(ELF_REL): src/main.rs Cargo.toml
 	cargo build --release
 
-$(ELF): src/main.rs
+$(ELF): src/main.rs Cargo.toml
 	cargo build
 
 dis:
