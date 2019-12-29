@@ -1,11 +1,11 @@
 [package]
 name = "litex"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Tom Vijlbrief <tvijlbrief@gmail.com>"]
 edition = "2018"
 description = "Running Rust on the (Linux) Litex VexRiscv FPGA SOC"
 repository = "https://github.com/tomtor/rust-litex"
-documentation = "https://github.com/tomtor/rust-litex/README.md"
+documentation = "https://github.com/tomtor/rust-litex/blob/master/README.md"
 license = "GPL-3.0"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
