@@ -30,7 +30,7 @@ fn main() -> ! {
 
     const HEAP_SIZE: usize = 1024;
     static mut HEAP_AREA: [u8; HEAP_SIZE] = [0; HEAP_SIZE];
-    unsafe { HEAP = LockedHeap::new(&HEAP_AREA[0] as *const u8 as usize, 4096) };
+    unsafe { HEAP = LockedHeap::new(&HEAP_AREA[0] as *const u8 as usize, HEAP_AREA.len()) };
 
     for i in 1..10 {
         writeln!(UART, "i: {} 1/i: {}", i, 1.0 / i as f32).ok();

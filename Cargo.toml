@@ -1,6 +1,6 @@
 [package]
 name = "litex"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["Tom Vijlbrief <tvijlbrief@gmail.com>"]
 edition = "2018"
 description = "Running Rust on the (Linux) Litex VexRiscv FPGA SOC"
