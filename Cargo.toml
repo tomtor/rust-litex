@@ -10,7 +10,7 @@ edition = "2018"
 #embedded-hal = "0.2.3"
 #panic-halt = "0.2.0"
 riscv = "0.5.3"
-riscv-rt = { git = "https://github.com/tomtor/riscv-rt", branch = "litex" }
+riscv-rt = { git = "https://github.com/tomtor/riscv-rt", version = "0.6", branch = "litex" }
 linked_list_allocator = "0.6"
 #heapless = "0.5.1"
 
