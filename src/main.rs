@@ -106,6 +106,5 @@ fn panic(panic_info: &PanicInfo) -> ! {
 
 #[alloc_error_handler]
 fn alloc_error(_: core::alloc::Layout) -> ! {
-    //fn alloc_error(_layout: Layout) -> ! {
     panic!("Heap");
 }
