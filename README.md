@@ -51,6 +51,12 @@ and copy the result `VexRiscv.v` to the `VexRiscv_Linux.v` of your `litex` tree 
 sudo cp VexRiscv.v ../litex/litex/soc/cores/cpu/vexriscv/verilog/VexRiscv_Linux.v
 ```
 
+Run setup.py for these changes to take effect.
+
+```
+sudo python ../litex/setup.py install
+```
+
 Verify that you can still boot the simulation in your `linux-on-litex-vexriscv` directory:
 ```
 ./sim.py
