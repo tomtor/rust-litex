@@ -16,7 +16,7 @@ license = "GPL-3.0"
 riscv = "0.5.3"
 #riscv-rt = { path = "riscv-rt" }
 riscv-rt = { git = "https://github.com/tomtor/riscv-rt", version = "0.6.2", branch = "litex" }
-linked_list_allocator = "0.6"
+linked_list_allocator = "0.10.2"
 #heapless = "0.5.1"
 
 # this lets you use `cargo fix`!
